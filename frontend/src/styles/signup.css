@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&family=Poiret+One&display=swap');
+
+.Home{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size:x-large;
+  color: #DD7206;
+  text-shadow: 2px 2px #ff0000;
+  background-image: url("../images/crowd.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+input{
+  width: 200px;
+  height: 25px;
+  font-family: 'Poiret One', cursive;
+  font-size: 75%;
+  font-weight: bolder;
+}
+
+.logo{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 150px;
+  margin-top: 7px;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  font-family: 'Poiret One', cursive;
+  font-size: 100%;
+  font-weight: bolder;
+  color: #DD7206;
+  cursor: pointer;
+}

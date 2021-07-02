@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Permanent+Marker&family=Poiret+One&display=swap');
+
+.Main{
+  font-family: 'Permanent Marker', cursive;
+  font-size:x-large;
+  color: #DD7206;
+  background-image: url("../images/headphones.jpg");
+  min-width: 100%;
+  min-height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: block;
+}
+
+.logo2{
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 815px;
+  margin-top: 37px;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  font-family: 'Poiret One', cursive;
+  font-size: 80%;
+  font-weight: bolder;
+  color: #DD7206;
+  cursor: pointer;
+}
+
+.vol{
+  display: inline-block;
+  margin-left: 550px;
+}
+
+.logout{
+  margin-left: 27%;
+}
+
+.header{
+  text-shadow: 2px 2px #ff0000;
+}
+
+.upper{
+  margin-left: 80px; 
+  display: inline-block;
+}
+
+.middle{
+  float:left; 
+  font-family: 'Poiret One', cursive;
+  width:70%;
+  height:600px;
+  overflow-y: scroll;
+}
+
+.middleLeft{
+  float:left; 
+  font-family: 'Poiret One', cursive;
+  width:49.5%;
+  height:600px;
+  border-right: 1px solid white;
+}
+
+.middleRight{
+  float:left; 
+  font-family: 'Poiret One', cursive;
+  width:49.5%;
+  height:600px;
+}
+
+.middle_album{
+  margin-left: 5%;
+  margin-bottom: 5%;
+  font-family: 'Poiret One', cursive;
+  width:14%;
+  height: 250px;
+  float:left; 
+  border:2px solid black;
+  cursor: pointer;
+}
+
+.left{
+  float:left; 
+  width:14.9%;
+  height:600px;
+  border-right: 1px solid white;
+}
+
+.right{
+  float:right;
+  font-family: 'Poiret One', cursive;
+  width:14.9%;
+  height:600px;
+  border-left: 1px solid white;
+}
+
+.buttom{
+  position: fixed;
+  top: 85%;
+  left: 25%;
+  width:50%;
+  height:100px;
+}
+
+.divider{
+  width: 1px;
+  min-height: 400px;
+  background: white;
+}
+
+.homeButton{
+  width: 150px;
+  height: 40px;
+  background-color: Transparent; 
+  border: none;
+  font-family: 'Poiret One', cursive;
+  font-size: 125%;
+  font-weight: bolder;
+  color: #DD7206;
+  cursor: pointer;
+  background: url("../images/home.png");
+  background-size: 20%;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  vertical-align:middle;
+}
+
+.profileButton{
+    width: 150px;
+    height: 40px;
+    background-color: Transparent; 
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 125%;
+    font-weight: bolder;
+    color: #DD7206;
+    cursor: pointer;
+    background: url("../images/profile.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    vertical-align:middle;
+  }
+
+  .searchButton{
+    width: 150px;
+    height: 40px;
+    background-color: Transparent; 
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 125%;
+    font-weight: bolder;
+    color: #DD7206;
+    cursor: pointer;
+    background: url("../images/search.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    vertical-align:middle;
+  }
+
+  .libraryButton{
+    width: 150px;
+    height: 40px;
+    background-color: Transparent; 
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 125%;
+    font-weight: bolder;
+    color: #DD7206;
+    cursor: pointer;
+    background: url("../images/library.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    vertical-align:middle;
+  }
+
+  .mymusicButton{
+    width: 200px;
+    height: 40px;
+    background-color: Transparent; 
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 125%;
+    font-weight: bolder;
+    color: #DD7206;
+    cursor: pointer;
+    background: url("../images/mymusic.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    vertical-align:middle;
+  }
+
+  .friendButton{    
+    width: 200px;
+    height: 40px;
+    background-color: Transparent; 
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 125%;
+    font-weight: bolder;
+    color: #DD7206;
+    cursor: pointer;
+    background: url("../images/friend.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    vertical-align:middle;
+    margin-right: 10%;
+    margin-top: 11%;
+  }
+
+  .track{
+    background-color: Transparent; 
+    border: none;
+    width: 30%;
+    text-align: left;
+    margin-left: 2%;
+    font-size:100%;
+  }
+
+  .createAlbum{
+    width: 150px;
+    float: right;
+    margin-top: 3%;
+    margin-right: 3%;
+  }
+
+  .myMusic{
+    margin-left: 6%;
+  }
+
+  .searchButton2{
+    width: 40px;
+    height: 40px;
+    background-color: Transparent; 
+    border: none;
+    font-family: 'Poiret One', cursive;
+    font-size: 125%;
+    font-weight: bolder;
+    color: #DD7206;
+    cursor: pointer;
+    background: url("../images/search.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    vertical-align:middle;
+  }
+
+  .albumCover{
+    height: 5em;
+    width: 5em;
+    margin-top: 3%;
+  }
+
+  .albumButton{
+    background-color: Transparent; 
+    border: none;
+    font-size: 100%;
+    font-weight: bolder;
+    cursor: pointer;
+    width: 150px;
+  }
+
+  .songInfoLeft{
+    width: 33%;
+    float: left;
+    display: inline;
+  }
+
+  .songInfoMiddle{
+    width: 33%;
+    float: left;
+    display: inline;
+  }
+
+  .songInfoRight{
+    width: 33%;
+    float: right;
+    display: inline;
+  }
+
+  .userInfoLeft{
+    width: 50%;
+    float: left;
+    display: inline;
+  }
+
+  .userInfoRight{
+    width: 28%;
+    float: left;
+    display: inline;
+  }
+
+  .username{
+    background-color: Transparent; 
+    border: none;
+    width: 40%;
+    text-align: left;
+    margin-left: 2%;
+  }
+
+  .user_id{
+    background-color: Transparent; 
+    border: none;
+    width: 20%;
+    text-align: left;
+    margin-left: 2%;
+  }
+
+  .addUser{
+    border: none;
+    width: 5%;
+    height: 50%;
+    margin-left: 2%;
+    font-size: 125%;
+  }
+
+  .requestButton{
+    margin-left: 3%;
+    height: 30px;
+  }
+
+  .toUserButtons{
+    background-color: Transparent; 
+    border: none;
+  }
+
+  .genreDiv{
+    margin-left: 9%;
+    margin-bottom: 5%;
+    font-family: 'Poiret One', cursive;
+    font-size: larger;
+    width:200px;
+    height: 200px;
+    float:left; 
+    cursor: pointer;
+  }
+
+  .genreDiv:hover{
+    background-color: white;
+    opacity: 0.6;
+  }
+
+  .genreCover{
+    height: 5em;
+    width: 5em;
+    margin-top: 3%;
+  }
+
+  .genreButtons{
+    font-family: 'Poiret One', cursive;
+    font-size: larger;
+    float:middle; 
+    background-color: transparent;
+    border: none;
+    width: 200px;
+  }
+
+  .likeButton{
+    width: 20px;
+    height: 20px;
+    background-color: Transparent; 
+    border: none;
+    color: #DD7206;
+    cursor: pointer;
+    background: url("../images/heart.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    vertical-align:middle;
+    text-align: left;
+  }
+
+  .genreSelectTag{
+    height: 30px;
+    width: 210px;
+    font-family: 'Poiret One';
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+  }
+
+  .albumCover2{
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
+  .albumInfo2{
+    height: 350px;
+  }
+
+  .albumInfoPt2{
+    margin-right: 40%;
+    margin-top: 5%;
+  }
+
+  .songs2{
+
+    margin-top: 2%;
+    height: 50px;
+    float: left; 
+    width: 80%;
+    margin-right: 5%;
+    background-color: Transparent; 
+    border: none;
+    /* width: 50%; */
+  }
+   
+  .song2{
+    text-align: left;
+    float: left;
+    margin-left: 10%;
+    background-color: Transparent; 
+    border: none;
+    width: 100%; 
+    font-size: 125%;
+    cursor:default;
+  }
+
+  .addSong2{
+    margin-left: 300px;
+
+  }
+
+  .albumInfoPt2Year{
+    margin-right: 48%;
+    margin-bottom: 25%;
+  }
+  
